@@ -18,10 +18,10 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 import tf_slim as slim
 
-from tensorflow.contrib import quantize as contrib_quantize
+from tensorflow_core.contrib import quantize as contrib_quantize
 
 from datasets import dataset_factory
 from deployment import model_deploy

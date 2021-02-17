@@ -39,7 +39,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from datasets import download_and_convert_cifar10
 from datasets import download_and_convert_flowers
@@ -91,4 +91,4 @@ def main(_):
         'dataset_name [%s] was not recognized.' % FLAGS.dataset_name)
 
 if __name__ == '__main__':
-  tf.app.run()
+  tf.app.run(Flowers_data)

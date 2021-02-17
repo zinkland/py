@@ -34,7 +34,7 @@ import sys
 
 from six.moves import range
 from six.moves import zip
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from datasets import dataset_utils
 
@@ -213,3 +213,4 @@ def run(dataset_dir):
 
   _clean_up_temporary_files(dataset_dir)
   print('\nFinished converting the Flowers dataset!')
+run('C:\\Users\\asus\Desktop\\py\\Flowers_data')
