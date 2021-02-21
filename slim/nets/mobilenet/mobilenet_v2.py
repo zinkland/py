@@ -27,7 +27,7 @@ from __future__ import print_function
 import copy
 import functools
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 import tf_slim as slim
 
 from nets.mobilenet import conv_blocks as ops
